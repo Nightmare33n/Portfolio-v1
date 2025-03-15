@@ -24,7 +24,7 @@ const Hero = ({ name, title, description, imageUrl }) => {
             {name}
           </motion.h1>
           <motion.h2 
-            className="text-2xl sm:text-3xl text-gray-600 dark:text-gray-300"
+            className="text-2xl sm:text-3xl text-gray-300 dark:text-gray-300"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8, ease: "easeOut" }}

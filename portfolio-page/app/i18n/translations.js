@@ -1,14 +1,15 @@
 export const translations = {
+  // Traducciones en inglés -----------------------------------------------------------------------------
   en: {
     hero: {
       title: "Full Stack Developer",
-      description: "I create beautiful and functional web applications with modern technologies and best practices.",
+      description: "I create presentable and functional web applications with modern technologies and best practices.",
       contactMe: "Contact Me",
       viewWork: "View Work"
     },
     skills: {
       title: "Skills & Expertise",
-      description: "My technical skills and areas of expertise that I've developed throughout my career.",
+      description: "My technical skills and expertise in various technologies",
       categories: {
         frontend: "Frontend Development",
         backend: "Backend Development",
@@ -40,28 +41,36 @@ export const translations = {
       }
     },
     contact: {
-      title: "Get In Touch",
-      description: "I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.",
-      contactInfo: "Contact Information",
-      socialLinks: "Social Links",
+      title: "Get in Touch",
+      description: "Have a project in mind? Let's talk about it.",
       form: {
-        name: "Name",
-        email: "Email",
-        message: "Message",
-        sendMessage: "Send Message"
+        title: "Send me a Message",
+        name: "Your Name",
+        email: "Your Email",
+        message: "Your Message",
+        submit: "Send Message"
+      },
+      info: {
+        title: "Contact Information",
+        email: "contact@example.com",
+        phone: "+1 (555) 123-4567"
+      },
+      social: {
+        title: "Social Links"
       }
     }
   },
+  // Traducciones en español -----------------------------------------------------------------------------
   es: {
     hero: {
       title: "Desarrollador Full Stack",
-      description: "Creo aplicaciones web hermosas y funcionales con tecnologías modernas y buenas prácticas.",
+      description: "Creo aplicaciones web presentables y funcionales con tecnologías modernas y buenas prácticas.",
       contactMe: "Contáctame",
       viewWork: "Ver Trabajos"
     },
     skills: {
       title: "Habilidades y Experiencia",
-      description: "Mis habilidades técnicas y áreas de experiencia que he desarrollado a lo largo de mi carrera.",
+      description: "Mis habilidades técnicas y experiencia en diversas tecnologías",
       categories: {
         frontend: "Desarrollo Frontend",
         backend: "Desarrollo Backend",
@@ -94,14 +103,21 @@ export const translations = {
     },
     contact: {
       title: "Contacto",
-      description: "Siempre estoy abierto a discutir nuevos proyectos, ideas creativas u oportunidades para ser parte de tus visiones.",
-      contactInfo: "Información de Contacto",
-      socialLinks: "Enlaces Sociales",
+      description: "¿Tienes un proyecto en mente? Hablemos de ello.",
       form: {
-        name: "Nombre",
-        email: "Correo",
-        message: "Mensaje",
-        sendMessage: "Enviar Mensaje"
+        title: "Envíame un Mensaje",
+        name: "Tu Nombre",
+        email: "Tu Email",
+        message: "Tu Mensaje",
+        submit: "Enviar Mensaje"
+      },
+      info: {
+        title: "Información de Contacto",
+        email: "contact@example.com",
+        phone: "+1 (555) 123-4567"
+      },
+      social: {
+        title: "Redes Sociales"
       }
     }
   }

@@ -44,7 +44,7 @@ export default function Home() {
       key: "empleonline",
       title: "Buscador de Prácticas Profesionales",
       description: "Una plataforma para encontrar prácticas profesionales y oportunidades laborales",
-      image: "./img/EmpleOnlineDemo.png",
+      image: "https://th.bing.com/th/id/R.af46319998cc9bb2a021b162c13655e9?rik=ly90FrRL5K46dQ&riu=http%3a%2f%2fwww.hourglassit.com%2fimages%2fresponsive-design.png&ehk=vv1eY5lAd9%2bYZGoQBEx8xr4t5Me4UmzhivbCrnHydMA%3d&risl=&pid=ImgRaw&r=0",
       demoUrl: "https://hackathon-v1.vercel.app/",
       githubUrl: "https://github.com/yourusername/project",
       technologies: ["Next.js", "Tailwind CSS", "Firebase", "TypeScript"]
@@ -81,7 +81,7 @@ export default function Home() {
         name="Andre Aguirre"
         title={t('hero.title')}
         description={t('hero.description')}
-        imageUrl="/img/profile/profile.jpg"
+        imageUrl="https://th.bing.com/th/id/R.af46319998cc9bb2a021b162c13655e9?rik=ly90FrRL5K46dQ&riu=http%3a%2f%2fwww.hourglassit.com%2fimages%2fresponsive-design.png&ehk=vv1eY5lAd9%2bYZGoQBEx8xr4t5Me4UmzhivbCrnHydMA%3d&risl=&pid=ImgRaw&r=0"
       />
       <Skills skillsData={skillsData} />
       <Projects projects={projects} />

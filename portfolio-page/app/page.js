@@ -13,19 +13,20 @@ export default function Home() {
     {
       title: t('skills.categories.frontend'),
       skills: [
-        { name: "React", level: 90 },
+        { name: "React", level: 80 },
         { name: "Next.js", level: 85 },
-        { name: "JavaScript", level: 95 },
-        { name: "TypeScript", level: 80 },
+        { name: "Tailwind CSS", level: 95 },
+        { name: "HTML & CSS", level: 95 },
+       
       ]
     },
     {
       title: t('skills.categories.backend'),
       skills: [
-        { name: "Node.js", level: 85 },
-        { name: "Express", level: 80 },
-        { name: "MongoDB", level: 75 },
-        { name: "SQL", level: 70 },
+        { name: "Node.js", level: 75 },
+        { name: "PHP", level: 75 },
+        { name: "JavaScript", level: 85 },
+        { name: "MySQL", level: 80 },
       ]
     },
     {
@@ -34,7 +35,7 @@ export default function Home() {
         { name: "Git", level: 90 },
         { name: "Docker", level: 70 },
         { name: "AWS", level: 65 },
-        { name: "CI/CD", level: 75 },
+        { name: "API's", level: 85 },
       ]
     }
   ];
@@ -53,7 +54,7 @@ export default function Home() {
       key: "ecommerce",
       title: "E-commerce Platform",
       description: "A full-stack e-commerce platform built with Next.js and MongoDB",
-      image: "/img/projects/ecommerce.jpg",
+      image: "https://th.bing.com/th/id/OIP.bI8KDjd8-nDvzTX_PhWv7wHaEo?pid=ImgDet&rs=1",
       demoUrl: "https://demo.example.com",
       githubUrl: "https://github.com/yourusername/project",
       technologies: ["Next.js", "MongoDB", "Tailwind CSS", "Stripe"]
@@ -62,7 +63,7 @@ export default function Home() {
       key: "taskmanager",
       title: "Task Management App",
       description: "A collaborative task management application with real-time updates",
-      image: "/img/projects/taskmanager.jpg",
+      image: "https://th.bing.com/th/id/OIP.7pC18PAo9-712G7RREGfnwHaE8?pid=ImgDet&rs=1",
       demoUrl: "https://demo.example.com",
       githubUrl: "https://github.com/yourusername/project",
       technologies: ["React", "Firebase", "Material-UI", "Redux"]
